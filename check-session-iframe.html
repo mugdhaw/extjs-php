@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<iframe id="iframeOP" src="https://domain.com:443/oidc/checksession?client_id=ihwd535hzs1AgulRPvR4NCtmfgUa" style="display: none" frameborder="0" width="0" height="0"></iframe>
+        <script language="JavaScript" type="text/javascript">
+			var stat = "unchanged";
+			var session_state = '5e78b3e5ab07f74696e0ff6f2ef71a276e607adbafb48510f495acb251cf29c0.XmPGz3VcRyCejKc_h1rkHw';
+			var client_id = 'ihwd535hzs1AgulRPvR4NCtmfgUa';
+			var message = client_id + "  " + session_state;
+			
+			setInterval(check_session, 100000);
+			
+			function check_session()
+			{
+            var targetWindow = document.getElementById("iframeOP").contentWindow;
+            var message = client_id + " " +session_state;
+            targetWindow.postMessage(message, targetOP);
+			}
+			
+        window.addEventListener("message", receiveMessage, false);
+        function receiveMessage(event) {
+			if (event.origin !== targetOP) {
+                     // Origin did not come from the OP; this message must be rejected.
+                     return;
+           }
+           if (event.data === "unchanged") {
+                     // User is still logged in to the OP
+           } elseif(event.data === "changed") {
+                     // User session state has been changed. Reauthenticate the user
+           } else {
+				// Error message received. User has logged out of the OP
+		   }
+        }
+
+    </script>
+    </head>
+    <body/>
+</html>
