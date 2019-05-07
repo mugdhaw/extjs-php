@@ -1,0 +1,1170 @@
+{
+	"return": {
+		"displayName": "Admin Permissions",
+		"nodeList": [{
+			"displayName": "View",
+			"nodeList": [{
+				"displayName": "AssignedToMe",
+				"resourcePath": "\/permission\/admin\/View\/AssignedToMe",
+				"selected": false
+			}, {
+				"displayName": "AssignedToOthers",
+				"resourcePath": "\/permission\/admin\/View\/AssignedToOthers",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/View",
+			"selected": false
+		}, {
+			"displayName": "Configure",
+			"nodeList": [{
+				"displayName": "Configure Data Sources",
+				"resourcePath": "\/permission\/admin\/configure\/datasources",
+				"selected": false
+			}, {
+				"displayName": "Security",
+				"nodeList": {
+					"displayName": "Identity Management",
+					"nodeList": [{
+						"displayName": "Password Management",
+						"resourcePath": "\/permission\/admin\/configure\/security\/usermgt\/passwords",
+						"selected": false
+					}, {
+						"displayName": "Profile Management",
+						"resourcePath": "\/permission\/admin\/configure\/security\/usermgt\/profiles",
+						"selected": false
+					}, {
+						"displayName": "Identity Provisioning",
+						"resourcePath": "\/permission\/admin\/configure\/security\/usermgt\/provisioning",
+						"selected": false
+					}, {
+						"displayName": "User Management",
+						"resourcePath": "\/permission\/admin\/configure\/security\/usermgt\/users",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/configure\/security\/usermgt",
+					"selected": false
+				},
+				"resourcePath": "\/permission\/admin\/configure\/security",
+				"selected": false
+			}, {
+				"displayName": "Theme",
+				"resourcePath": "\/permission\/admin\/configure\/theme",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/configure",
+			"selected": false
+		}, {
+			"displayName": "Login",
+			"resourcePath": "\/permission\/admin\/login",
+			"selected": false
+		}, {
+			"displayName": "Manage",
+			"nodeList": [{
+				"displayName": "Add",
+				"nodeList": [{
+					"displayName": "Module",
+					"resourcePath": "\/permission\/admin\/manage\/add\/module",
+					"selected": false
+				}, {
+					"displayName": "Services",
+					"resourcePath": "\/permission\/admin\/manage\/add\/service",
+					"selected": false
+				}, {
+					"displayName": "Webapps",
+					"resourcePath": "\/permission\/admin\/manage\/add\/webapp",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/add",
+				"selected": false
+			}, {
+				"displayName": "Attachment",
+				"resourcePath": "\/permission\/admin\/manage\/attachment",
+				"selected": false
+			}, {
+				"displayName": "BPEL",
+				"nodeList": [{
+					"displayName": "Add BPEL",
+					"resourcePath": "\/permission\/admin\/manage\/bpel\/add",
+					"selected": false
+				}, {
+					"displayName": "Manage BPEL Process Instances",
+					"resourcePath": "\/permission\/admin\/manage\/bpel\/instances",
+					"selected": false
+				}, {
+					"displayName": "Manage BPEL Packages",
+					"resourcePath": "\/permission\/admin\/manage\/bpel\/packages",
+					"selected": false
+				}, {
+					"displayName": "Manage BPEL Processes",
+					"resourcePath": "\/permission\/admin\/manage\/bpel\/processes",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/bpel",
+				"selected": false
+			}, {
+				"displayName": "Event Streams",
+				"resourcePath": "\/permission\/admin\/manage\/event-publish",
+				"selected": false
+			}, {
+				"displayName": "Event Streams",
+				"resourcePath": "\/permission\/admin\/manage\/event-streams",
+				"selected": false
+			}, {
+				"displayName": "Extensions",
+				"nodeList": [{
+					"displayName": "Add",
+					"resourcePath": "\/permission\/admin\/manage\/extensions\/add",
+					"selected": false
+				}, {
+					"displayName": "List",
+					"resourcePath": "\/permission\/admin\/manage\/extensions\/list",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/extensions",
+				"selected": false
+			}, {
+				"displayName": "HumanTask",
+				"nodeList": [{
+					"displayName": "Add HumanTask",
+					"resourcePath": "\/permission\/admin\/manage\/humantask\/add",
+					"selected": false
+				}, {
+					"displayName": "Manage HumanTask Packages",
+					"resourcePath": "\/permission\/admin\/manage\/humantask\/packages",
+					"selected": false
+				}, {
+					"displayName": "Manage HumanTasks",
+					"resourcePath": "\/permission\/admin\/manage\/humantask\/task",
+					"selected": false
+				}, {
+					"displayName": "View Task List",
+					"resourcePath": "\/permission\/admin\/manage\/humantask\/viewtasks",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/humantask",
+				"selected": false
+			}, {
+				"displayName": "Identity",
+				"nodeList": [{
+					"displayName": "Application Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/applicationmgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/applicationmgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/applicationmgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/applicationmgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/applicationmgt",
+					"selected": false
+				}, {
+					"displayName": "Authentication Management",
+					"nodeList": {
+						"displayName": "Session Management",
+						"nodeList": [{
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/authentication\/session\/delete",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/authentication\/session\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/authentication\/session",
+						"selected": false
+					},
+					"resourcePath": "\/permission\/admin\/manage\/identity\/authentication",
+					"selected": false
+				}, {
+					"displayName": "Claim",
+					"nodeList": [{
+						"displayName": "Claim Management",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/claim\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/claim\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/claim\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/claim\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/claim",
+						"selected": false
+					}, {
+						"displayName": "Claim Metadata Management",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/metadata\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/metadata\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/metadata\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/metadata\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt\/metadata",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/claimmgt",
+					"selected": false
+				}, {
+					"displayName": "Email Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/emailmgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/emailmgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/emailmgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/emailmgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/emailmgt",
+					"selected": false
+				}, {
+					"displayName": "Entitlement Management",
+					"nodeList": [{
+						"displayName": "Entitlement PAP Management",
+						"nodeList": [{
+							"displayName": "Entitlement Policy Management",
+							"nodeList": [{
+								"displayName": "Create",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/create",
+								"selected": false
+							}, {
+								"displayName": "Delete",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/delete",
+								"selected": false
+							}, {
+								"displayName": "Demote",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/demote",
+								"selected": false
+							}, {
+								"displayName": "Enable",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/enable",
+								"selected": false
+							}, {
+								"displayName": "List",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/list",
+								"selected": false
+							}, {
+								"displayName": "Order",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/order",
+								"selected": false
+							}, {
+								"displayName": "Publish",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/publish",
+								"selected": false
+							}, {
+								"displayName": "Rollback",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/rollback",
+								"selected": false
+							}, {
+								"displayName": "Update",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/update",
+								"selected": false
+							}, {
+								"displayName": "View",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy\/view",
+								"selected": false
+							}],
+							"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/policy",
+							"selected": false
+						}, {
+							"displayName": "Entitlement Subscriber Management",
+							"nodeList": [{
+								"displayName": "Create",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber\/create",
+								"selected": false
+							}, {
+								"displayName": "Delete",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber\/delete",
+								"selected": false
+							}, {
+								"displayName": "List",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber\/list",
+								"selected": false
+							}, {
+								"displayName": "Update",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber\/update",
+								"selected": false
+							}, {
+								"displayName": "View",
+								"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber\/view",
+								"selected": false
+							}],
+							"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap\/subscriber",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pap",
+						"selected": false
+					}, {
+						"displayName": "Entitlement PDP Management",
+						"nodeList": [{
+							"displayName": "Manage",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pdp\/manage",
+							"selected": false
+						}, {
+							"displayName": "Test",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pdp\/test",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pdp\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pdp",
+						"selected": false
+					}, {
+						"displayName": "Entitlement PEP Management",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement\/pep",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/entitlement",
+					"selected": false
+				}, {
+					"displayName": "Identity Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/identitymgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/identitymgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/identitymgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/identitymgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/identitymgt",
+					"selected": false
+				}, {
+					"displayName": "Identity Provider Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/idpmgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/idpmgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/idpmgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/idpmgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/idpmgt",
+					"selected": false
+				}, {
+					"displayName": "Key Store Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/keystoremgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/keystoremgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/keystoremgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/keystoremgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/keystoremgt",
+					"selected": false
+				}, {
+					"displayName": "PEP",
+					"resourcePath": "\/permission\/admin\/manage\/identity\/pep",
+					"selected": false
+				}, {
+					"displayName": "Identity Provisioning",
+					"resourcePath": "\/permission\/admin\/manage\/identity\/provisioning",
+					"selected": false
+				}, {
+					"displayName": "Role Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/rolemgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/rolemgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/rolemgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/rolemgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/rolemgt",
+					"selected": false
+				}, {
+					"displayName": "Security Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/securitymgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/securitymgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/securitymgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/securitymgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/securitymgt",
+					"selected": false
+				}, {
+					"displayName": "STS Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/stsmgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/stsmgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/stsmgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/stsmgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/stsmgt",
+					"selected": false
+				}, {
+					"displayName": "User",
+					"nodeList": {
+						"displayName": "Association",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/user\/association\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/user\/association\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/user\/association\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/user\/association\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/user\/association",
+						"selected": false
+					},
+					"resourcePath": "\/permission\/admin\/manage\/identity\/user",
+					"selected": false
+				}, {
+					"displayName": "User Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt\/delete",
+						"selected": false
+					}, {
+						"displayName": "List",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt\/list",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/usermgt",
+					"selected": false
+				}, {
+					"displayName": "User Profile Management",
+					"nodeList": [{
+						"displayName": "Create",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userprofile\/create",
+						"selected": false
+					}, {
+						"displayName": "Delete",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userprofile\/delete",
+						"selected": false
+					}, {
+						"displayName": "Update",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userprofile\/update",
+						"selected": false
+					}, {
+						"displayName": "View",
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userprofile\/view",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/userprofile",
+					"selected": false
+				}, {
+					"displayName": "User Store Management",
+					"nodeList": [{
+						"displayName": "User Store Configuration Management",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/config\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/config\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/config\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/config\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/config",
+						"selected": false
+					}, {
+						"displayName": "User Store Count Management",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/count\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/count\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/count\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/count\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/userstore\/count",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/userstore",
+					"selected": false
+				}, {
+					"displayName": "Workflow Management",
+					"nodeList": [{
+						"displayName": "Associations",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/association\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/association\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/association\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/association\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/association",
+						"selected": false
+					}, {
+						"displayName": "Workflows",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/definition\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/definition\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/definition\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/definition\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/definition",
+						"selected": false
+					}, {
+						"displayName": "Monitor",
+						"nodeList": [{
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/monitor\/delete",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/monitor\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/monitor",
+						"selected": false
+					}, {
+						"displayName": "BPS Profiles",
+						"nodeList": [{
+							"displayName": "Create",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/profile\/create",
+							"selected": false
+						}, {
+							"displayName": "Delete",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/profile\/delete",
+							"selected": false
+						}, {
+							"displayName": "Update",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/profile\/update",
+							"selected": false
+						}, {
+							"displayName": "View",
+							"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/profile\/view",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/manage\/identity\/workflow\/profile",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/manage\/identity\/workflow",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/identity",
+				"selected": false
+			}, {
+				"displayName": "Configure",
+				"nodeList": [{
+					"displayName": "Module",
+					"resourcePath": "\/permission\/admin\/manage\/modify\/module",
+					"selected": false
+				}, {
+					"displayName": "Services",
+					"resourcePath": "\/permission\/admin\/manage\/modify\/service",
+					"selected": false
+				}, {
+					"displayName": "User Profiles",
+					"resourcePath": "\/permission\/admin\/manage\/modify\/user-profile",
+					"selected": false
+				}, {
+					"displayName": "Webapps",
+					"resourcePath": "\/permission\/admin\/manage\/modify\/webapp",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/modify",
+				"selected": false
+			}, {
+				"displayName": "Resources",
+				"nodeList": [{
+					"displayName": "Browse",
+					"resourcePath": "\/permission\/admin\/manage\/resources\/browse",
+					"selected": false
+				}, {
+					"displayName": "Notifications",
+					"resourcePath": "\/permission\/admin\/manage\/resources\/notifications",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/resources",
+				"selected": false
+			}, {
+				"displayName": "Search",
+				"nodeList": [{
+					"displayName": "Advanced",
+					"resourcePath": "\/permission\/admin\/manage\/search\/advanced-search",
+					"selected": false
+				}, {
+					"displayName": "Basic",
+					"resourcePath": "\/permission\/admin\/manage\/search\/resources",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/search",
+				"selected": false
+			}, {
+				"displayName": "Topic",
+				"nodeList": [{
+					"displayName": "Add Topic\/SubTopic",
+					"resourcePath": "\/permission\/admin\/manage\/topic\/addTopic",
+					"selected": false
+				}, {
+					"displayName": "Browse Topic",
+					"resourcePath": "\/permission\/admin\/manage\/topic\/browseTopic",
+					"selected": false
+				}, {
+					"displayName": "Delete Topic",
+					"resourcePath": "\/permission\/admin\/manage\/topic\/deleteTopic",
+					"selected": false
+				}, {
+					"displayName": "Purge Topic",
+					"resourcePath": "\/permission\/admin\/manage\/topic\/purgeTopic",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/manage\/topic",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/manage",
+			"selected": false
+		}, {
+			"displayName": "Monitor",
+			"nodeList": [{
+				"displayName": "Monitor BPEL",
+				"resourcePath": "\/permission\/admin\/monitor\/attachment",
+				"selected": false
+			}, {
+				"displayName": "Monitor BPEL",
+				"resourcePath": "\/permission\/admin\/monitor\/bpel",
+				"selected": false
+			}, {
+				"displayName": "Logs",
+				"resourcePath": "\/permission\/admin\/monitor\/logging",
+				"selected": false
+			}, {
+				"displayName": "Metrics",
+				"resourcePath": "\/permission\/admin\/monitor\/metrics",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/monitor",
+			"selected": false
+		}, {
+			"displayName": "TFNG",
+			"nodeList": [{
+				"displayName": "Fast Reportrer",
+				"nodeList": [{
+					"displayName": "Download",
+					"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/download",
+					"selected": true
+				}, {
+					"displayName": "Integration",
+					"nodeList": [{
+						"displayName": "Download",
+						"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/download",
+						"selected": false
+					}, {
+						"displayName": "Edit",
+						"nodeList": [{
+							"displayName": "Created By Me",
+							"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/edit\/created_by_me",
+							"selected": true
+						}, {
+							"displayName": "Created By Others",
+							"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/edit\/created_by_others",
+							"selected": true
+						}],
+						"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/edit",
+						"selected": false
+					}, {
+						"displayName": "Upload",
+						"nodeList": [{
+							"displayName": "Created By Me",
+							"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/upload\/created_by_me",
+							"selected": false
+						}, {
+							"displayName": "Created By Others",
+							"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/upload\/created_by_others",
+							"selected": false
+						}],
+						"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration\/upload",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer\/integration",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/tfng\/fast_reportrer",
+				"selected": false
+			}, {
+				"displayName": "Jobs",
+				"nodeList": [{
+					"displayName": "Assign To Me",
+					"nodeList": [{
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_me\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_me\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Partially Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_me\/partially_assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Totally Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_me\/totally_assigned_to_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_me",
+					"selected": false
+				}, {
+					"displayName": "Assign To Other",
+					"nodeList": [{
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_other\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_other\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Partially Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_other\/partially_assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Totally Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_other\/totally_assigned_to_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/assign_to_other",
+					"selected": false
+				}, {
+					"displayName": "Comment",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/comment\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/comment\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/comment\/assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/comment\/created_by_me",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/comment",
+					"selected": false
+				}, {
+					"displayName": "Create",
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/create",
+					"selected": false
+				}, {
+					"displayName": "Delete",
+					"nodeList": [{
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/delete\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Created By Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/delete\/created_by_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/delete",
+					"selected": false
+				}, {
+					"displayName": "Duplicate",
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/duplicate",
+					"selected": false
+				}, {
+					"displayName": "Edit",
+					"nodeList": [{
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/edit\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Created By Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/edit\/created_by_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/edit",
+					"selected": false
+				}, {
+					"displayName": "Export",
+					"nodeList": [{
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/export\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Created By Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/export\/created_by_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/export",
+					"selected": false
+				}, {
+					"displayName": "Move",
+					"nodeList": [{
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/move\/created_by_me",
+						"selected": false
+					}, {
+						"displayName": "Created By Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/move\/created_by_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/move",
+					"selected": false
+				}, {
+					"displayName": "Upload New",
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/upload_new",
+					"selected": false
+				}, {
+					"displayName": "View",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/view\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/view\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Partially Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/view\/partially_assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Totally Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/jobs\/view\/totally_assigned_to_others",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/jobs\/view",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/tfng\/jobs",
+				"selected": false
+			}, {
+				"displayName": "System",
+				"nodeList": [{
+					"displayName": "Activate Plan",
+					"resourcePath": "\/permission\/admin\/tfng\/system\/activate_plan",
+					"selected": false
+				}, {
+					"displayName": "Export",
+					"resourcePath": "\/permission\/admin\/tfng\/system\/export",
+					"selected": false
+				}, {
+					"displayName": "View",
+					"resourcePath": "\/permission\/admin\/tfng\/system\/view",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/tfng\/system",
+				"selected": false
+			}, {
+				"displayName": "Tests",
+				"nodeList": [{
+					"displayName": "Comment",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/comment\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/comment\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/comment\/assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/comment\/created_by_me",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/tests\/comment",
+					"selected": false
+				}, {
+					"displayName": "Create",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/create\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/create\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/create\/assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/create\/created_by_me",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/tests\/create",
+					"selected": false
+				}, {
+					"displayName": "Delete",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/delete\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/delete\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/delete\/assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/delete\/created_by_me",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/tests\/delete",
+					"selected": false
+				}, {
+					"displayName": "Import",
+					"nodeList": [{
+						"displayName": "Assigned To Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/import\/assigned_to_me",
+						"selected": false
+					}, {
+						"displayName": "Assigned To None",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/import\/assigned_to_none",
+						"selected": false
+					}, {
+						"displayName": "Assigned To Others",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/import\/assigned_to_others",
+						"selected": false
+					}, {
+						"displayName": "Created By Me",
+						"resourcePath": "\/permission\/admin\/tfng\/tests\/import\/created_by_me",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/tests\/import",
+					"selected": false
+				}, {
+					"displayName": "Upload",
+					"resourcePath": "\/permission\/admin\/tfng\/tests\/upload",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/tfng\/tests",
+				"selected": false
+			}, {
+				"displayName": "Users",
+				"nodeList": [{
+					"displayName": "Add and Invite",
+					"resourcePath": "\/permission\/admin\/tfng\/users\/add_invite",
+					"selected": false
+				}, {
+					"displayName": "Change",
+					"nodeList": [{
+						"displayName": "Role",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/change\/role",
+						"selected": false
+					}, {
+						"displayName": "Status",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/change\/status",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/users\/change",
+					"selected": false
+				}, {
+					"displayName": "Delete",
+					"resourcePath": "\/permission\/admin\/tfng\/users\/delete",
+					"selected": false
+				}, {
+					"displayName": "Edit Profile",
+					"nodeList": [{
+						"displayName": "Others",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/edit_profile\/others",
+						"selected": false
+					}, {
+						"displayName": "Self",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/edit_profile\/self",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/users\/edit_profile",
+					"selected": false
+				}, {
+					"displayName": "View",
+					"nodeList": [{
+						"displayName": "Others",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/view\/others",
+						"selected": false
+					}, {
+						"displayName": "Self",
+						"resourcePath": "\/permission\/admin\/tfng\/users\/view\/self",
+						"selected": false
+					}],
+					"resourcePath": "\/permission\/admin\/tfng\/users\/view",
+					"selected": false
+				}],
+				"resourcePath": "\/permission\/admin\/tfng\/users",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/tfng",
+			"selected": false
+		}, {
+			"displayName": "USSP",
+			"nodeList": [{
+				"displayName": "Use Applications",
+				"resourcePath": "\/permission\/admin\/ussp\/applications",
+				"selected": false
+			}, {
+				"displayName": "Organization Profile",
+				"resourcePath": "\/permission\/admin\/ussp\/org_profile",
+				"selected": false
+			}, {
+				"displayName": "User Profile",
+				"resourcePath": "\/permission\/admin\/ussp\/user_profile",
+				"selected": false
+			}],
+			"resourcePath": "\/permission\/admin\/ussp",
+			"selected": false
+		}],
+		"resourcePath": "\/permission\/admin\/",
+		"selected": false
+	}
+}
