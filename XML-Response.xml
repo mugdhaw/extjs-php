@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <searchEntitlementResponse xmlns="urn:v3.webservices.operations.flexnet.com">
+         <statusInfo>
+            <status>SUCCESS</status>
+         </statusInfo>
+         <entitlement>
+            <simpleEntitlement>
+               <entitlementId>
+                  <id>0283-6c7c-05a4-4d69-83c1-8159-b370-9d8e</id>
+               </entitlementId>
+               <lastModifiedDateTime>2019-04-11T07:44:28.603Z</lastModifiedDateTime>
+               <description />
+               <soldTo>org_123736464</soldTo>
+               <soldToName>EMS Training</soldToName>
+               <shipToEmail />
+               <shipToAddress />
+               <state>DEPLOYED</state>
+               <createdUserId>pankaj.dhande@exfo.com</createdUserId>
+               <lineItems>
+                  <activationId>
+                     <id>babb-a34d-6a74-4470-83e9-cea3-c8f8-77be</id>
+                  </activationId>
+                  <description />
+                  <product>
+                     <uniqueId>HID-197969</uniqueId>
+                     <primaryKeys>
+                        <name>PD_TF_ULTIMATE</name>
+                        <version>1.0</version>
+                     </primaryKeys>
+                  </product>
+                  <partNumber>
+                     <uniqueId>HID-124772</uniqueId>
+                     <primaryKeys>
+                        <partId>PD_TF_ULTIMATE_FULL</partId>
+                     </primaryKeys>
+                  </partNumber>
+                  <licenseModel>
+                     <uniqueId>HID-12495</uniqueId>
+                     <primaryKeys>
+                        <name>Named User Licensing</name>
+                     </primaryKeys>
+                  </licenseModel>
+                  <licenseModelAttributes>
+                     <attribute>
+                        <attributeName>NOTICE</attributeName>
+                     </attribute>
+                     <attribute>
+                        <attributeName>SERIAL_NUMBER</attributeName>
+                     </attribute>
+                     <attribute>
+                        <attributeName>VENDOR_STRING</attributeName>
+                     </attribute>
+                  </licenseModelAttributes>
+                  <policyAttributes>
+                     <cancelLicensePolicy>
+                        <isCancelLicense>false</isCancelLicense>
+                     </cancelLicensePolicy>
+                     <virtualLicensePolicy>
+                        <isVirtualLicense>true</isVirtualLicense>
+                     </virtualLicensePolicy>
+                     <acpiGenerationIdLicensePolicy>
+                        <useACPIGenerationId>false</useACPIGenerationId>
+                     </acpiGenerationIdLicensePolicy>
+                  </policyAttributes>
+                  <orderLineNumber />
+                  <numberOfCopies>5</numberOfCopies>
+                  <startDate>2019-04-11</startDate>
+                  <startDateOption>DEFINE_NOW</startDateOption>
+                  <isPermanent>false</isPermanent>
+                  <term>
+                     <numDuration>366</numDuration>
+                     <durationUnit>DAYS</durationUnit>
+                  </term>
+                  <expirationDate>2020-04-11</expirationDate>
+                  <entitledProducts>
+                     <entitledProduct>
+                        <product>
+                           <uniqueId>HID-197969</uniqueId>
+                           <primaryKeys>
+                              <name>PD_TF_ULTIMATE</name>
+                              <version>1.0</version>
+                           </primaryKeys>
+                        </product>
+                        <quantity>1</quantity>
+                     </entitledProduct>
+                  </entitledProducts>
+                  <productLine>
+                     <uniqueId>HID-18969</uniqueId>
+                     <name>Uncategorized Products</name>
+                     <description>Uncategorized Products.</description>
+                  </productLine>
+                  <numberOfRemainingCopies>0</numberOfRemainingCopies>
+                  <fulfilledCount>5</fulfilledCount>
+                  <availableExtraActivations>0</availableExtraActivations>
+                  <isTrustedType>false</isTrustedType>
+                  <state>DEPLOYED</state>
+                  <licenseTechnology>
+                     <uniqueId>HID-1289</uniqueId>
+                     <primaryKeys>
+                        <name>FlexNet Licensing</name>
+                     </primaryKeys>
+                  </licenseTechnology>
+                  <createdOnDateTime>2019-04-11T07:43:36.587Z</createdOnDateTime>
+                  <lastModifiedDateTime>2019-04-11T07:44:28.563Z</lastModifiedDateTime>
+                  <overdraftMax>0</overdraftMax>
+                  <remainingOverdraftCount>0</remainingOverdraftCount>
+               </lineItems>
+               <channelPartners>
+                  <channelPartner>
+                     <tierName>bo.constants.partnertiernames.endcustomer</tierName>
+                     <accountUnit>
+                        <uniqueId>HID-1897382</uniqueId>
+                        <primaryKeys>
+                           <name>org_123736464</name>
+                        </primaryKeys>
+                     </accountUnit>
+                     <contact>
+                        <uniqueId>HID-565499</uniqueId>
+                        <userName>duzabe@easy-mail.top</userName>
+                        <primaryKeys>
+                           <firstName>Pankaj</firstName>
+                           <lastName>Dhande</lastName>
+                           <emailAddress>duzabe@easy-mail.top</emailAddress>
+                           <phoneNumber />
+                        </primaryKeys>
+                     </contact>
+                     <currentOwner>true</currentOwner>
+                  </channelPartner>
+               </channelPartners>
+               <allowPortalLogin>true</allowPortalLogin>
+            </simpleEntitlement>
+         </entitlement>
+      </searchEntitlementResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
