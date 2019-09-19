@@ -13,8 +13,8 @@ function startPatternInverted($input) {
 startPatternInverted(5);
 
 /*
-
-
+ Output : 
+ 
 *****
 ****
 ***
