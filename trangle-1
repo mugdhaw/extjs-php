@@ -1,0 +1,25 @@
+for ($i=0;$i<=5;$i++) {
+  
+  for($space=5;$space>=$i;$space--) {
+        echo " ";
+  }
+    
+  for ($j=1;$j<=$i;$j++) {
+    echo "* ";
+  }
+  echo "<br>";
+} 
+
+
+/*
+
+Output : Handle space logic in proper way
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+
+*/
