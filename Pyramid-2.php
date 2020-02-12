@@ -1,3 +1,4 @@
+<?php
 function startPatternInverted($input) {
  
   for ($clm = 1; $clm <= $input; $clm++) {
@@ -10,7 +11,7 @@ function startPatternInverted($input) {
                 echo " ";
              }           
        }
-      echo "<br>";
+      echo "\n";
   } 
 }
 startPatternInverted(5);
@@ -27,3 +28,4 @@ Output ::
 
 
 */
+?>
